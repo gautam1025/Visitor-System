@@ -10,11 +10,11 @@ body {
 
 @layer components {
   .card {
-    @apply bg-white shadow-[0_4px_24px_rgba(255, 215, 0, 0.06)] border border-[#F5EEDC] rounded-3xl p-6 transition-all duration-300;
+    @apply bg-white shadow-[0_4px_24px_rgba(255,215,0,0.06)] border border-[#F5EEDC] rounded-3xl p-6 transition-all duration-300;
   }
 
   .card:hover {
-    @apply shadow-[0_8px_32px_rgba(255, 215, 0, 0.12)] transform -translate-y-1 border-[#E8DEAF];
+    @apply shadow-[0_8px_32px_rgba(255,215,0,0.12)] transform -translate-y-1 border-[#E8DEAF];
   }
 
   .btn-primary {
@@ -23,7 +23,7 @@ body {
 
   /* Nano Banana specific button */
   .btn-banana {
-    @apply flex-1 py-3 px-4 bg-[#FFDE00] text-[#2D2A1C] rounded-xl font-bold shadow-[0_4px_14px_rgba(255, 222, 0, 0.3)] hover:bg-[#FFE633] hover:shadow-[0_6px_20px_rgba(255, 222, 0, 0.4)] hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 border border-[#F0D100];
+    @apply flex-1 py-3 px-4 bg-[#FFDE00] text-[#2D2A1C] rounded-xl font-bold shadow-[0_4px_14px_rgba(255,222,0,0.3)] hover:bg-[#FFE633] hover:shadow-[0_6px_20px_rgba(255,222,0,0.4)] hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 border border-[#F0D100];
   }
 
   .btn-banana-outline {
